@@ -1,0 +1,513 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #222222;
+    padding: 0;
+    font-family: Gotham, Helvetica, sans-serif;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-10%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@font-face {
+    src: url("font/gotham/Gotham-Book.otf");
+    font-family: Gotham;
+    font-weight: 500;
+}
+
+@font-face {
+    src: url("font/gotham/Gotham-Medium.otf");
+    font-family: Gotham;
+    font-weight: 600;
+}
+
+@font-face {
+    src: url("font/gotham/Gotham-Bold.ttf");
+    font-family: Gotham;
+    font-weight: 700;
+}
+
+@font-face {
+    src: url("font/gotham/Gotham-LightItalic.otf");
+    font-family: "Gotham Light Italic";
+}
+
+
+h1 {
+    font-family: Gotham, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: Gotham, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+h3 {
+    font-family: Gotham, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+h5 {
+    font-family: Gotham, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+p {
+    font-family: Gotham, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    font-size: 16px;
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+}
+
+a {
+    color: #222222;
+}
+
+a:hover {
+    color: #222222;
+}
+
+.flex-fill {
+    flex: 1 1 auto;
+}
+
+.flex-shrink {
+    flex-shrink: 0;
+}
+
+#map {
+    height: 400px;
+}
+
+/* New classes */
+
+.banner {
+    height: 60vh;
+    padding: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+.it {
+    font-family: "Gotham Light Italic", Helvetica italic, sans-serif;
+}
+
+.banner-image {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.banner-image iframe,
+.banner-image object,
+.banner-image embed {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+}
+
+.main-header {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+}
+
+.black-section {
+    background: #222;
+    color: white;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.logo {
+    width: 40%;
+}
+
+.white {
+    color: #fff !important;
+}
+
+.black-section > h1 {
+    color: #fff;
+}
+
+.om {
+    padding-top: 0;
+    margin-bottom: 50px;
+    background: white;
+}
+
+.profile-img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.info {
+    font-family: Gotham, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 30px;
+    color: #222222;
+    padding-top: 0;
+}
+
+.info::before {
+    content: "";
+    width: 45px;
+    height: 8px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 0;
+    background-color: #222222;
+}
+
+#opplegg {
+    padding-top: 80px;
+    background: #ffffff;
+    margin-bottom: 70px;
+}
+
+#uke0 {
+    margin-bottom: 100px;
+}
+
+.uke0-content {
+    background: #ECBA82;
+}
+
+#uke1 {
+    margin-bottom: 100px;
+}
+
+.uke1-content {
+    background: #C5EFCB;
+}
+
+#uke2 {
+    margin-bottom: 100px;
+}
+
+.uke2-content {
+    background: #79ADDC;
+}
+
+.fab {
+    color: #ffffff;
+}
+
+.fab:hover {
+    color: #ffe200;
+    transition: all .1s ease;
+    -webkit-transition: all .1s ease;
+}
+
+#kontakt {
+    padding-top: 80px;
+    margin-bottom: 100px;
+}
+
+/* Overwrite classes */
+
+.navbar {
+    margin: 0;
+    background: #ffe200;
+}
+
+.navbar-brand {
+    font-family: Gotham, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-link {
+    font-family: Gotham, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-brand:focus, .navbar-brand:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+.navbar-brand:active {
+    color: rgba(0, 0, 0, 1);
+}
+
+.btn {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: Gotham, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 16px 60px;
+    box-shadow: transparent;
+}
+
+.btn-light {
+    background: #ffffff;
+    box-shadow: transparent;
+}
+
+/* Carousel */
+
+.carousel-fade .carousel-item {
+    display: block;
+    position: relative;
+    opacity: 0;
+    transition: opacity .75s ease-in-out;
+}
+
+.row {
+    width: 100%;
+}
+
+.carousel-fade .carousel-item.active {
+    opacity: 1;
+    display: block;
+}
+
+.row {
+    width: 100%;
+}
+
+.carousel {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    opacity: .5; /*Added clone in this line*/
+}
+
+/* Mapbox */
+#kontoret {
+    background-image: url('https://i.imgur.com/nbGRodk.jpg');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#samfundet {
+    background-image: url("https://i.imgur.com/0c5TQ9q.jpg");
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#kjellern {
+    background-image: url("https://i.imgur.com/q4Ta8qx.jpg");
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+}
+
+.map-holder {
+    margin: 2em auto;
+    display: block;
+}
+
+.map-text {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+#map {
+    height: 350px;
+    width: 100%;
+}
+
+/* Media Queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .banner-image iframe,
+    .banner-image object,
+    .banner-image embed {
+        top: -15%;
+        right: -82%;
+        width: 250%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        padding-top: 20px;
+        width: 30%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .banner {
+        height: 40vh;
+    }
+
+    .banner-image {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 70%
+    }
+
+    .banner-image iframe,
+    .banner-image object,
+    .banner-image embed {
+        position: absolute;
+        z-index: -1;
+        top: -20%;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .om {
+        padding-top: 60px;
+    }
+
+    .banner {
+        height: 40vh;
+    }
+
+    .banner-image {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 70%
+    }
+
+    .banner-image iframe,
+    .banner-image object,
+    .banner-image embed {
+        position: absolute;
+        z-index: -1;
+        top: -20%;
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-header {
+        margin-top: 140px;
+        margin-bottom: 50px;
+        -webkit-hyphens: manual;
+        -ms-hyphens: manual;
+        hyphens: manual;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 70px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h5 {
+        font-size: 23px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    li {
+        font-size: 18px;
+    }
+
+    .banner {
+        height: 70vh;
+    }
+
+    .banner-image {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%
+    }
+
+    .banner-image iframe,
+    .banner-image object,
+    .banner-image embed {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-header {
+        margin-top: 170px;
+        margin-bottom: 50px;
+        -webkit-hyphens: manual;
+        -ms-hyphens: manual;
+        hyphens: manual;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
