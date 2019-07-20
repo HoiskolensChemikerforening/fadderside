@@ -1,3 +1,7 @@
+AOS.init({
+    duration: 700
+});
+
 mapboxgl.accessToken = "pk.eyJ1IjoiaGFha29uYnUiLCJhIjoiY2pxYjVsaXAxM2ljZTQzanlnb2dmaTExdCJ9.T0cGvSepETpr611Y1GID2A";
 
 /* Map: This represents the map on the page. */
