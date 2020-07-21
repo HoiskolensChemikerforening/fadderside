@@ -14,8 +14,7 @@ var map = new mapboxgl.Map({
 
 // Studentersamfundet
 var samfundetPopup = new mapboxgl.Popup({offset: 35})
-    .setText('Studentersamfundet ligger i Elgsetergate, rett ved Elgseter bro. ' +
-        'Her finner deler av immatrikuleringen sted');
+    .setText('Studentersamfundet ligger i Elgesetergate, rett ved Elgeseter bro.');
 
 var samfundet = document.createElement('div');
 samfundet.id = 'samfundet';
