@@ -1,440 +1,491 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-  <title>HC Fadderperioden</title>
+    <title>HC Fadderperioden</title>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css" rel="stylesheet"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css" rel="stylesheet"/>
 
 </head>
 <body id="yellow-section">
 <nav class="navbar navbar-expand-md sticky-top">
-  <a class="navbar-brand" href="https://www.facebook.com/groups/1547918268716183/" target="_blank">Bli med</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
-    <span style="font-size: 24px" class="fas fa-bars"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbar">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#yellow-section">Fadderperioden</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#opplegg">Opplegg</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#kontakt">Kontakt</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#black-section">HC</a>
-      </li>
-    </ul>
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="https://hc.ntnu.no/forside/" target="_blank">Hjemmeside</a>
-      </li>
-    </ul>
-  </div>
+    <a class="navbar-brand" href="https://forms.gle/eN2TKVvA2c9dCc4R6" target="_blank">Bli med</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+        <span style="font-size: 24px" class="fas fa-bars"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#yellow-section">Fadderperioden</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#opplegg">Opplegg</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#kontakt">Kontakt</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#black-section">HC</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="https://hc.ntnu.no/forside/" target="_blank">Hjemmeside</a>
+            </li>
+        </ul>
+    </div>
 </nav>
 
 <div class="banner">
-  <div class="banner-image">
-    <iframe id="vimeo-player"
-            src="https://player.vimeo.com/video/373645869?autoplay=1&loop=1&title=0&byline=0&portrait=0&background=1"
-            style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen"
-            allowfullscreen></iframe>
-  </div>
-  <div class="container" style="z-index: 2">
-    <div class="row">
-      <div class="col">
-        <h1 class="white main-header">
-          Fadderperioden 2020
-        </h1>
-      </div>
+    <div class="banner-image">
+        <iframe id="vimeo-player"
+                src="https://player.vimeo.com/video/577157659?loop=1&title=0&byline=0&portrait=0&background=1"
+                style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+                allow="autoplay; fullscreen"
+                allowfullscreen></iframe>
     </div>
-    <div class="row">
-      <div class="col">
-        <a href="https://www.facebook.com/groups/1547918268716183/" target="_blank">
-          <button type="button" class="btn btn-light">Bli med</button>
-        </a>
-      </div>
+    <div class="container" style="z-index: 2">
+        <div class="row">
+            <div class="col">
+                <h1 class="white main-header">
+                    Fadderperioden 2021
+                </h1>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 </div>
 
 
 <div class="om">
-  <div class="container">
-    <div class="row m-0">
-      <div class="col-12 col-md-1 p-0"></div>
-      <div class="col-12 col-md-8 p-0">
-        <p class="info">
-          Velkommen til oss i Høiskolens Chemikerforening – linjeforeningen for industriell kjemi og
-          bioteknologi! Fadderperioden sparkes i gang søndag 9. august med grilling på ettermiddagen
-          før den offisielle oppstarten mandag 10. august. Vi håper du har lyst til å delta
-          på alt det morsomme vi har planlagt for dere!
-        </p>
-      </div>
+    <div class="container">
+        <div class="row m-0">
+            <div class="col-12 col-md-1 p-0"></div>
+            <div class="col-12 col-md-8 p-0">
+                <p class="info">
+                    Velkommen til oss i Høiskolens Chemikerforening – linjeforeningen for industriell kjemi og
+                    bioteknologi! Fadderperioden sparkes i gang lørdag 14. august med grilling på ettermiddagen
+                    før den offisielle oppstarten mandag 16. august. Vi håper du har lyst til å delta
+                    på alt det morsomme vi har planlagt for dere!
+                </p>
+            </div>
+        </div>
+        <div class="row m-0">
+            <div class="col-12 col-md-1 p-0"></div>
+            <div class="col-5 col-md-4 p-0">
+                <a href="https://forms.gle/eN2TKVvA2c9dCc4R6" target="_blank">
+                    <button type="button" class="btn btn-yellow">Bli med!</button>
+                </a>
+            </div>
+            &nbsp;
+            <div class="col-12 col-md-1 p-0">
+                <a href="https://www.facebook.com/groups/1314306212320201" target="_blank">
+                    <button type="button" class="btn btn-yellow">Facebookgruppe</button>
+                </a>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 
+
 <div class="praktisk-info">
-  <div class="container">
-    <div class="row m-0">
-      <div class="col-12 col-md-1 p-0"></div>
-      <div class="col-12 col-md-8 p-0">
-        <h2 style="margin-top: 2rem; margin-bottom: 1.5rem">Praktisk info</h2>
-        <p style="padding-bottom: 0">
-          Både NTNU og vi oppfordrer alle nye studenter til å møte
-          medstudenter og linjeforeningen på campus for å se den digitale
-          immatrikuleringen sammen. Møt oss
-          <a href="https://use.mazemap.com/#v=1&center=10.407262,63.415896&zoom=19.2&zlevel=1&campusid=1&sharepoitype=point&sharepoi=10.40717%2C63.41592">
-            <strong>her</strong>
-          </a>
-          klokken 10:30. Husk 1 meters avstand til
-          hverandre for en trygg studiestart. Immatrikuleringen starter klokken 11:00, og etterpå vil dere bli delt inn
-          i faddergrupper og få en liten omvisning på Realfagbygget på Gløshaugen. Vel møtt!
-        </p>
-        <p></p>
-      </div>
+    <div class="container">
+        <div class="row m-0">
+            <div class="col-12 col-md-1 p-0"></div>
+            <div class="col-12 col-md-8 p-0">
+                <h2 style="margin-top: 2rem; margin-bottom: 1.5rem">Praktisk info</h2>
+                <p style="padding-bottom: 0">
+                    Både NTNU og vi oppfordrer alle nye studenter til å møte
+                    medstudenter og linjeforeningen på campus for å se den digitale
+                    immatrikuleringen sammen. Møt oss utenfor
+                    <a href="https://use.mazemap.com/#v=1&zlevel=-1&center=10.404623,63.415578&zoom=18&campusid=1&sharepoitype=poi&sharepoi=2035">
+                        <strong>R7</strong>
+                    </a>
+                    klokken 09:30. Husk 1 meters avstand til
+                    hverandre for en trygg studiestart. Immatrikuleringen starter klokken 10:00, og etterpå vil dere
+                    bli
+                    delt inn
+                    i faddergrupper og få en liten omvisning på Realfagbygget på Gløshaugen. Vel møtt!
+                </p>
+                <p></p>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 
 <div id="opplegg">
-  <div class="container" data-aos="fade-right">
-    <div class="row m-0">
-      <div class="col-12 col-md-4"></div>
-      <div class="col-12 col-md-7">
-        <div id="map"></div>
-        <h2 style="margin-top: 2rem; margin-bottom: 1.5rem">Opplegg</h2>
-        <p style="padding-bottom: 0">
-          Her finner dere en enkel oversikt over planlagt opplegg for hele fadderperioden. En mer detaljert plan kan
-          dere finne i <a href="https://www.facebook.com/groups/1547918268716183/" target="_blank"><strong>Facebook-gruppen</strong></a>.
-          Arrangementer der alkohol kan nytes er markert med vinglass.
-        </p>
-        <p></p>
-      </div>
+    <div class="container" data-aos="fade-right">
+        <div class="row m-0">
+            <div class="col-12 col-md-4"></div>
+            <div class="col-12 col-md-7">
+                <div id="map"></div>
+                <h2 style="margin-top: 2rem; margin-bottom: 1.5rem">Opplegg</h2>
+                <p style="padding-bottom: 0">
+                    Her finner dere en enkel oversikt over planlagt opplegg for hele fadderperioden. En mer
+                    detaljert
+                    plan kan
+                    dere finne i <a href="https://www.facebook.com/groups/1314306212320201" target="_blank"><strong>Facebook-gruppen</strong></a>.
+                    Arrangementer der alkohol kan nytes er markert med vinglass.
+                </p>
+                <p></p>
+            </div>
+        </div>
+        <div class="row m-0">
+            <div class="col-12 col-md-4"></div>
+            <div class="col-12 col-md-7">
+            </div>
+        </div>
+        <div class="row m-0">
+            <div class="col-12 col-md-4"></div>
+            <div class="col-12 col-md-7">
+            </div>
+        </div>
     </div>
-    <div class="row m-0">
-      <div class="col-12 col-md-4"></div>
-      <div class="col-12 col-md-7">
-      </div>
-    </div>
-    <div class="row m-0">
-      <div class="col-12 col-md-4"></div>
-      <div class="col-12 col-md-7">
-      </div>
-    </div>
-  </div>
 </div>
 
 <div id="uke0">
-  <div class="container">
-    <div class="row m-0">
-      <div class="col-9 col-md-1"></div>
-      <div class="col-9 col-md-7 uke0-content" data-aos="fade-left">
+    <div class="container">
         <div class="row m-0">
-          <div class="col-12">
-            <h2 class="text-center" style="padding-top: 50px; margin-bottom: 30px">Uke 32</h2>
-          </div>
-          <div class="col-12 col-md-6 uke0-content">
-            <h5>Søndag 9. august</h5>
-            <ul>
-              <li>
-                Grilling <br>
-                <span class="it">Høgskoleparken</span>
-              </li>
-            </ul>
-          </div>
+            <div class="col-9 col-md-1"></div>
+            <div class="col-9 col-md-7 uke0-content" data-aos="fade-left">
+                <div class="row m-0">
+                    <div class="col-12">
+                        <h2 class="text-center" style="padding-top: 50px; margin-bottom: 30px">Uke 32</h2>
+                    </div>
+                    <div class="col-12 col-md-6 uke0-content">
+                        <h5>Lørdag 14. august</h5>
+                        <ul>
+                            <li>
+                                Grilling <br>
+                                <span class="it">Høgskoleparken</span>
+                            </li>
+                        </ul>
 
-          <div class="col-12 col-md-6 uke0-content"></div>
+                        <h5>Søndag 15. august</h5>
+                        <ul>
+                            <li>
+                                Bli-kjent kveld <br>
+                                <span class="it">TBD</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-md-6 uke0-content"></div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </div>
 
 <div id="uke1">
-  <div class="container">
-    <div class="row m-0">
-      <div class="col-3 col-md-4"></div>
-      <div class="col-9 col-md-7 uke1-content" data-aos="fade-right">
+    <div class="container">
         <div class="row m-0">
-          <div class="col-12">
-            <h2 class="text-center" style="padding-top: 50px; margin-bottom: 30px">Uke 33</h2>
-          </div>
-          <div class="col-12 col-md-6 uke1-content">
+            <div class="col-3 col-md-4"></div>
+            <div class="col-9 col-md-7 uke1-content" data-aos="fade-right">
+                <div class="row m-0">
+                    <div class="col-12">
+                        <h2 class="text-center" style="padding-top: 50px; margin-bottom: 30px">Uke 33</h2>
+                    </div>
+                    <div class="col-12 col-md-6 uke1-content">
 
-            <h5>Mandag 10. august</h5>
-            <ul>
-              <li>
-                Immatrikulering og registrering <br>
-                <span class="it">Gløshaugen</span>
-              </li>
-              <li>
-                Middag og vors i faddergrupper <i class="fas fa-glass-cheers"></i> <br>
-              </li>
-            </ul>
+                        <h5>Mandag 16. august</h5>
+                        <ul>
+                            <li>
+                                Immatrikulering og registrering <br>
+                                <span class="it">Gløshaugen</span>
+                            </li>
+                            <li>
+                                Middagsvors og ImmatrikuleringspHaest i faddergrupper <i
+                                    class="fas fa-glass-cheers"></i> <br>
+                                <span class="it">Sted bestemmes i faddergruppene</span>
+                            </li>
+                        </ul>
 
-            <h5>Tirsdag 11. august</h5>
-            <ul>
-              <li>
-                Byvandring <br>
-                <span class="it">Trondheim Torg</span>
-              </li>
-            </ul>
+                        <h5>Tirsdag 17. august</h5>
+                        <ul>
+                            <li>
+                                Byvandring <br>
+                                <span class="it">Trondheim Torg</span>
+                            </li>
+                        </ul>
 
-            <h5>Onsdag 12. august</h5>
-            <ul>
-              <li>
-                Fotballtrening med Chemie FK
-                <span class="it">Dødens Dal</span>
-              </li>
-            </ul>
+                        <h5>Onsdag 18. august</h5>
+                        <ul>
+                            <li>
+                                Labekskursjon <br>
+                                <span class="it">Oppmøte i R7 <br> Obligatorisk for alle MTKJ-studenter</span>
+                            </li>
+                        </ul>
 
-            <h5>Torsdag 13. august</h5>
-            <ul>
-              <li>
-                Temavors <i class="fas fa-glass-cheers"></i> <br>
-              </li>
-              <li>
-                MusikkpHaest i Storsalen <br>
-                <span class="it">Studentersamfundet</span>
-              </li>
-            </ul>
-          </div>
+                        <h5>Torsdag 19. august</h5>
+                        <ul>
+                            <li>
+                                Musikkvors <i class="fas fa-glass-cheers"></i> <br>
+                                <span class="it"> Sted bestemmes i faddergruppene</span>
+                            </li>
+                            <li>
+                                TemapHaest <i class="fas fa-glass-cheers"></i> <br>
+                                <span class="it"> Sukkerhuset</span>
+                            </li>
+                        </ul>
+                    </div>
 
-          <div class="col-12 col-md-6 uke1-content">
-            <h5>Fredag 14. august</h5>
-            <ul>
-              <li>
-                Festningslekene <br>
-                <span class="it">Kristiansten Festning</span>
-              </li>
-            </ul>
+                    <div class="col-12 col-md-6 uke1-content">
+                        <h5>Fredag 20. august</h5>
+                        <ul>
+                            <li>
+                                Festningslekene <br>
+                                <span class="it">Kristiansten Festning</span>
+                            </li>
+                        </ul>
 
-            <h5>Lørdag 15. august</h5>
-            <ul>
-              <li>
-                Frokostvors <i class="fas fa-glass-cheers"></i> <br>
-                <span class="it">I faddergruppene</span>
-              </li>
-              <li>
-                Togafest <i class="fas fa-glass-cheers"></i> <br>
-                <span class="it">Med Delta linjeforening</span>
-              </li>
-            </ul>
+                        <h5>Lørdag 21. august</h5>
+                        <ul>
+                            <li>
+                                Frokostvors <i class="fas fa-glass-cheers"></i> <br>
+                                <span class="it">Sted bestemmes i faddergruppene</span>
+                            </li>
+                            <li>
+                                TogapHaest <i class="fas fa-glass-cheers"></i> <br>
+                                <span class="it">Sted bestemmes i faddergruppene</span>
+                            </li>
+                        </ul>
 
-            <h5>Søndag 16. august</h5>
-            <ul>
-              <li>
-                Intro til Chemieshow <br>
-                <span class="it">Gløshaugen</span>
-              </li>
-              <li>
-                Joggetur med Sportskomiteen <br>
-              </li>
-            </ul>
-          </div>
+                        <h5>Søndag 22. august</h5>
+                        <ul>
+                            <li>
+                                Intro til Chemieshow <br>
+                                <span class="it">R1</span>
+                            </li>
+                            <li>
+                                Joggetur med Sportskomiteen <br>
+                                <span class="it">Oppmøte foran Hovedbygget</span>
+                            </li>
+                            <li>
+                                Filmkveld <br>
+                                <span class="it">Oppmøte i R1</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </div>
 
 <div id="uke2">
-  <div class="container">
-    <div class="row m-0">
-      <div class="col-9 col-md-1"></div>
-      <div class="col-9 col-md-7 uke2-content d-block" data-aos="fade-left">
+    <div class="container">
         <div class="row m-0">
-          <div class="col-12">
-            <h2 class="text-center" style="padding-top: 50px; margin-bottom: 30px">Uke 34</h2>
-          </div>
-          <div class="col-12 col-md-6 uke2-content">
-            <h5>Mandag 17. august</h5>
-            <ul>
-              <li>
-                Hybel-til-hybel <i class="fas fa-glass-cheers"></i> <br>
-              </li>
-            </ul>
+            <div class="col-9 col-md-1"></div>
+            <div class="col-9 col-md-7 uke2-content d-block" data-aos="fade-left">
+                <div class="row m-0">
+                    <div class="col-12">
+                        <h2 class="text-center" style="padding-top: 50px; margin-bottom: 30px">Uke 34</h2>
+                    </div>
+                    <div class="col-12 col-md-6 uke2-content">
+                        <h5>Mandag 23. august</h5>
+                        <ul>
+                            <li>
+                                Hybelvors <i class="fas fa-glass-cheers"></i> <br>
+                                <span class="it">Sted bestemmes i faddergruppene</span>
+                            </li>
+                            <li>
+                                Hybel-til-hybel <i class="fas fa-glass-cheers"></i> <br>
+                            </li>
+                        </ul>
 
-            <h5>Tirsdag 18. august</h5>
-            <ul>
-              <li>
-                Obligatorisk labekskursjon <br>
-                <span class="it">Obligatorisk for alle MTKJ-studenter</span> <br>
-              </li>
-            </ul>
+                        <h5>Tirsdag 24. august</h5>
+                        <ul>
+                            <li>
+                                Akvititetsdag <br>
+                                <span class="it">Dødens Dal</span> <br>
+                            </li>
+                            <li>
+                                Kveldstur <br>
+                                <span class="it">Kuhaugen, *insert rendezvous here*</span> <br>
+                            </li>
+                        </ul>
 
-            <h5>Onsdag 19. august</h5>
-            <ul>
-              <li>
-                Bar-til-bar <i class="fas fa-glass-cheers"></i> <br>
-                <span class="it">Oppmøte Trondheim Torg</span>
-              </li>
-            </ul>
+                        <h5>Onsdag 25. august</h5>
+                        <ul>
+                            <li>
+                                YrkespHaest <i class="fas fa-glass-cheers"></i> <br>
+                                <span class="it">Sted bestemmes i faddergruppene</span>
+                            </li>
+                        </ul>
 
-            <h5>Torsdag 20. august</h5>
-            <ul>
-              <li>
-                Bad Taste Party <i class="fas fa-glass-cheers"></i> <br>
-              </li>
-            </ul>
-          </div>
+                        <h5>Torsdag 26. august</h5>
+                        <ul>
+                            <li>
+                                Bar-til-bar <i class="fas fa-glass-cheers"></i> <br>
+                                <span class="it">Oppmøte på torget</span>
+                            </li>
+                            <li>
+                                ABBA pHaest <i class="fas fa-glass-cheers"></i> <br>
+                            </li>
+                        </ul>
+                    </div>
 
-          <div class="col-12 col-md-6 uke2-content">
-            <h5>Fredag 21. august</h5>
-            <ul>
-              <li>
-                Chemieshow <br>
-                <span class="it">R1</span>
-              </li>
-            </ul>
+                    <div class="col-12 col-md-6 uke2-content">
+                        <h5>Fredag 27. august</h5>
+                        <ul>
+                            <li>
+                                Trening med Chemie FK <br>
+                                <span class="it">Dødens Dal</span>
+                            </li>
+                            <li>
+                                Chemieshow <br>
+                                <span class="it">R1</span>
+                            </li>
+                        </ul>
 
-            <h5>Lørdag 22. august</h5>
-            <ul>
-              <li>
-                Frokost&shy;vors <i class="fas fa-glass-cheers"></i> <br>
-                <span class="it">I faddergruppene</span>
-              </li>
-              <li>
-                Chemtrails <i class="fas fa-glass-cheers"></i> <br>
-              </li>
-              <li>
-                ChemiepHaest <i class="fas fa-glass-cheers"></i> <br>
-              </li>
-            </ul>
+                        <h5>Lørdag 28. august</h5>
+                        <ul>
+                            <li>
+                                Chemikernes aktivitetsdag <br>
+                                <span class="it">Sted bestemmes i faddergruppene</span>
+                            </li>
+                        </ul>
 
-            <h5>Søndag 25. august</h5>
-            <ul>
-              <li>
-                Avslutning på fadderperioden<br>
-                <span class="it">R1</span>
-              </li>
-            </ul>
-          </div>
+                        <h5>Søndag 29. august</h5>
+                        <ul>
+                            <li>
+                                AlchymistapHten<br>
+                                <span class="it">R1</span>
+                            </li>
+                        </ul>
+                    </div>
 
+                </div>
+            </div>
+
+            <div class="row m-0">
+                <div class="col-12 col-md-4"></div>
+
+            </div>
         </div>
-      </div>
-
-      <div class="row m-0">
-        <div class="col-12 col-md-4"></div>
-
-      </div>
     </div>
-  </div>
 </div>
 
 <div id="kontakt">
-  <div class="container">
-    <div class="row m-0">
-      <div class="col-3 col-md-4"></div>
-      <div class="col-9 col-md-7" data-aos="fade-right">
-        <h2 style="margin-bottom: 1.5rem;">Kontakt</h2>
+    <div class="container">
         <div class="row m-0">
-          <div class="col-12 col-md-6" style="margin-bottom: 1rem">
-            <img src="img/anna.png" class="profile-img">
-            <h5 style="margin-bottom: 1rem">Anna Haug Vandenhove</h5>
-            <p style="margin-bottom: 0.2rem"><span class="fas fa-phone-alt"></span> 951&nbsp;77&nbsp;309</p>
-            <a href="mailto:annahaugv@gmail.com"><p><span class="fas fa-envelope"></span> annahaugv@gmail.com
-            </p></a>
-          </div>
+            <div class="col-3 col-md-4"></div>
+            <div class="col-9 col-md-7" data-aos="fade-right">
+                <h2 style="margin-bottom: 1.5rem;">Kontakt</h2>
+                <div class="row m-0">
 
-          <div class="col-12 col-md-6" style="margin-bottom: 1rem">
-            <img src="img/oda.png" class="profile-img">
-            <h5 style="margin-bottom: 1rem">Oda Bentzen</h5>
-            <p style="margin-bottom: 0.2rem"><span class="fas fa-phone-alt"></span> 413&nbsp;40&nbsp;211</p>
-            <a href="mailto:oda.bentzen@gmail.com"><p><span class="fas fa-envelope"></span> oda.bentzen@gmail.com</p>
-            </a>
-          </div>
+                    <div class="col-12 col-md-6" style="margin-bottom: 1rem">
+                        <img src="img/helene.PNG" class="profile-img">
+                        <h5 style="margin-bottom: 1rem">Helene Hagland</h5>
+                        <p style="margin-bottom: 0.2rem"><span class="fas fa-phone-alt"></span> 948&nbsp;67&nbsp;968
+                        </p>
+                        <a href="mailto:helenehagland@gmail.com"><p><span class="fas fa-envelope"></span>
+                            helenehagland@gmail.com
+                        </p></a>
+                    </div>
 
-          <div class="col-12 col-md-6" style="margin-bottom: 1rem">
-            <img src="img/jorgen.png" class="profile-img">
-            <h5 style="margin-bottom: 1rem">Jørgen Gården</h5>
-            <p style="margin-bottom: 0.2rem"><span class="fas fa-phone-alt"></span> 901&nbsp;40&nbsp;465</p>
-            <a href="mailto:jorgenkg98@hotmail.com"><p><span class="fas fa-envelope"></span> jorgenkg98@hotmail.com</p>
-            </a>
-          </div>
+                    <div class="col-12 col-md-6" style="margin-bottom: 1rem">
+                        <img src="img/karsten.PNG" class="profile-img">
+                        <h5 style="margin-bottom: 1rem">Karsten Sættem Godø</h5>
+                        <p style="margin-bottom: 0.2rem"><span class="fas fa-phone-alt"></span> 901&nbsp;88&nbsp;864
+                        </p>
+                        <a href="mailto:karstengod@gmail.com"><p><span class="fas fa-envelope"></span>
+                            karstengod@gmail.com</p>
+                        </a>
+                    </div>
 
-          <div class="col-12 col-md-6" style="margin-bottom: 1rem">
-            <img src="img/retorte.png" class="profile-img">
-            <h5 style="margin-bottom: 1rem">Høiskolens Chemikerforening</h5>
-            <a href="mailto:fadderkom@hc.ntnu.no"><p style="margin-bottom: 0.2rem"><span class="fas fa-envelope"></span>
-              fadderkom@hc.ntnu.no</p></a>
-            <a href="mailto:styret@hc.ntnu.no"><p><span class="fas fa-envelope"></span> styret@hc.ntnu.no</p></a>
-          </div>
+                    <div class="col-12 col-md-6" style="margin-bottom: 1rem">
+                        <img src="img/sondre.PNG" class="profile-img">
+                        <h5 style="margin-bottom: 1rem">Sondre Armann</h5>
+                        <p style="margin-bottom: 0.2rem"><span class="fas fa-phone-alt"></span> 977&nbsp;50&nbsp;890
+                        </p>
+                        <a href="mailto:sondrearmann@gmail.com"><p><span class="fas fa-envelope"></span>
+                            sondrearmann@gmail.com</p>
+                        </a>
+                    </div>
 
+                    <div class="col-12 col-md-6" style="margin-bottom: 1rem">
+                        <img src="img/retorte.png" class="profile-img">
+                        <h5 style="margin-bottom: 1rem">Høiskolens Chemikerforening</h5>
+                        <a href="mailto:fadderkom@hc.ntnu.no"><p style="margin-bottom: 0.2rem"><span
+                                class="fas fa-envelope"></span>
+                            fadderkom@hc.ntnu.no</p></a>
+                        <a href="mailto:styret@hc.ntnu.no"><p><span class="fas fa-envelope"></span>
+                            styret@hc.ntnu.no
+                        </p></a>
+                    </div>
+
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </div>
 
 <div id="black-section" class="black-section">
-  <div class="container">
-    <div class="row" style="padding-top: 80px; margin-bottom: 60px; margin-left: 0; margin-right: 0;">
-      <div class="col-12 col-md-4"></div>
-      <div class="col-12 col-md-8">
-        <h2 class="" style=" margin-bottom: 30px; -webkit-hyphens: manual; -ms-hyphens: manual;
+    <div class="container">
+        <div class="row" style="padding-top: 80px; margin-bottom: 60px; margin-left: 0; margin-right: 0;">
+            <div class="col-12 col-md-4"></div>
+            <div class="col-12 col-md-8">
+                <h2 class="" style=" margin-bottom: 30px; -webkit-hyphens: manual; -ms-hyphens: manual;
           hyphens: manual;">
-          Høiskolens Chemikerforening</h2>
+                    Høiskolens Chemikerforening</h2>
 
-      </div>
-      <div class="col-12 col-md-8 order-md-2">
-        <p>
-          Høiskolens Chemikerforening er linjeforeningen for studenter ved sivilingeniørstudiet industriell kjemi
-          og
-          bioteknologi ved NTNU. HC er en
-          av de største bidragsyterne til det gode miljøet som er blant studentene på linja vår.
-        </p>
-        <p>
-          Høiskolens Chemikerforening ble grunnlagt 8. mars 1915, og er derfor en av de eldste
-          linjeforeningene i landet. Med sin lange historie følger det mange spennende tradisjoner og morsomme
-          arrangementer, selv om HC også hele tiden er i utvikling.
-        </p>
-      </div>
-      <div class="col-12 col-md-4">
-        <img src="img/logo.png" class="logo mx-auto d-block">
-      </div>
+            </div>
+            <div class="col-12 col-md-8 order-md-2">
+                <p>
+                    Høiskolens Chemikerforening er linjeforeningen for studenter ved sivilingeniørstudiet
+                    industriell
+                    kjemi
+                    og
+                    bioteknologi ved NTNU. HC er en
+                    av de største bidragsyterne til det gode miljøet som er blant studentene på linja vår.
+                </p>
+                <p>
+                    Høiskolens Chemikerforening ble grunnlagt 8. mars 1915, og er derfor en av de eldste
+                    linjeforeningene i landet. Med sin lange historie følger det mange spennende tradisjoner og
+                    morsomme
+                    arrangementer, selv om HC også hele tiden er i utvikling.
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <img src="img/logo.png" class="logo mx-auto d-block">
+            </div>
+        </div>
+
+        <div class="row m-0">
+            <div class="col-4 col-md-4">
+                <h2 class="text-center">
+                    <a href="https://www.facebook.com/HoiskolensChemikerforening/" target="_blank">
+                        <span class="fab fa-facebook"></span>
+                    </a>
+                </h2>
+            </div>
+
+            <div class="col-4 col-md-4">
+                <h2 class="text-center">
+                    <a href="https://twitter.com/sugepumpen" target="_blank">
+                        <span class="fab fa-twitter"></span>
+                    </a>
+                </h2>
+            </div>
+
+            <div class="col-4 col-md-4">
+                <h2 class="text-center">
+                    <a href="https://www.instagram.com/hcntnu/" target="_blank">
+                        <span class="fab fa-instagram"></span>
+                    </a>
+                </h2>
+            </div>
+
+        </div>
     </div>
-
-    <div class="row m-0">
-      <div class="col-4 col-md-4">
-        <h2 class="text-center">
-          <a href="https://www.facebook.com/HoiskolensChemikerforening/" target="_blank">
-            <span class="fab fa-facebook"></span>
-          </a>
-        </h2>
-      </div>
-
-      <div class="col-4 col-md-4">
-        <h2 class="text-center">
-          <a href="https://twitter.com/sugepumpen" target="_blank">
-            <span class="fab fa-twitter"></span>
-          </a>
-        </h2>
-      </div>
-
-      <div class="col-4 col-md-4">
-        <h2 class="text-center">
-          <a href="https://www.instagram.com/hcntnu/" target="_blank">
-            <span class="fab fa-instagram"></span>
-          </a>
-        </h2>
-      </div>
-
-    </div>
-  </div>
 
 </div>
 
