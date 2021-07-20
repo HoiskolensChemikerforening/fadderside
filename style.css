@@ -219,7 +219,7 @@ a:hover {
 }
 
 .fab:hover {
-    color: #ffe200;
+    color: #f9cf00;
     transition: all .1s ease;
     -webkit-transition: all .1s ease;
 }
@@ -233,7 +233,7 @@ a:hover {
 
 .navbar {
     margin: 0;
-    background: #ffe200;
+    background: #f9cf00;
 }
 
 .navbar-brand {
@@ -272,6 +272,16 @@ a:hover {
 .btn-light {
     background: #ffffff;
     box-shadow: transparent;
+}
+
+.btn-yellow {
+    border: 4px solid black;
+    background: #f9cf00;
+    box-shadow: transparent;
+    color:rgba(0, 0, 0, 0.6);
+}
+.btn-yellow:hover{
+    color:black;
 }
 
 /* Mapbox */
