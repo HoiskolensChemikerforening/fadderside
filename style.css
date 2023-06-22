@@ -116,7 +116,7 @@ a:hover {
     overflow: hidden;
     background-image:url('img/fadderside21.JPG');
     background-repeat:no-repeat;
-    background-attachment:fixed;
+    /*background-attachment:fixed;problem*/
     background-position:center;
     position: absolute;
 }
